@@ -1,0 +1,56 @@
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\appsettings.json
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\RecenseraMera API.exe
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\RecenseraMera API.deps.json
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\RecenseraMera API.runtimeconfig.json
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\RecenseraMera API.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\RecenseraMera API.pdb
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\obj\Debug\net8.0\RecenseraMera API.csproj.AssemblyReference.cache
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\obj\Debug\net8.0\RecenseraMera API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\obj\Debug\net8.0\RecenseraMera API.AssemblyInfoInputs.cache
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\obj\Debug\net8.0\RecenseraMera API.AssemblyInfo.cs
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\obj\Debug\net8.0\RecenseraMera API.csproj.CoreCompileInputs.cache
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\obj\Debug\net8.0\RecenseraMera API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\obj\Debug\net8.0\RecenseraMera API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\obj\Debug\net8.0\staticwebassets\msbuild.RecenseraMera API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\obj\Debug\net8.0\staticwebassets\msbuild.build.RecenseraMera API.props
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.RecenseraMera API.props
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.RecenseraMera API.props
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\obj\Debug\net8.0\scopedcss\bundle\RecenseraMera API.styles.css
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\obj\Debug\net8.0\RecenseraMera API.csproj.CopyComplete
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\obj\Debug\net8.0\RecenseraMera API.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\obj\Debug\net8.0\refint\RecenseraMera API.dll
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\obj\Debug\net8.0\RecenseraMera API.pdb
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\obj\Debug\net8.0\RecenseraMera API.genruntimeconfig.cache
+C:\Users\Elev\source\repos\RecenseraMera API\RecenseraMera API\obj\Debug\net8.0\ref\RecenseraMera API.dll
