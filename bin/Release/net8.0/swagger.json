@@ -1,0 +1,567 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "RecenseraMera API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "version": "1.0"
+  },
+  "paths": {
+    "/Category/ChooseCategory": {
+      "post": {
+        "tags": [
+          "Category"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Category"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Comment/CreateComment": {
+      "post": {
+        "tags": [
+          "Comment"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Comment"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Comment/GetAllComments": {
+      "get": {
+        "tags": [
+          "Comment"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Comment"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Comment"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Comment/DeleteComment": {
+      "delete": {
+        "tags": [
+          "Comment"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Comment"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Likes/LikeReview": {
+      "post": {
+        "tags": [
+          "Likes"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Review"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Likes/UnlikeReview": {
+      "delete": {
+        "tags": [
+          "Likes"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "reviewId",
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "in": "query",
+            "name": "userId",
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Report/ReportReview": {
+      "post": {
+        "tags": [
+          "Report"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Report"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Review/CreateReview": {
+      "post": {
+        "tags": [
+          "Review"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/ReviewPost"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Review/ViewAllReviews": {
+      "get": {
+        "tags": [
+          "Review"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Review"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Review/RemoveReview": {
+      "delete": {
+        "tags": [
+          "Review"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Review"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/User/CreateUser": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/User/Login": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/User/VerifyRole": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/User/VerifyUserId": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/WeatherForecast"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Category": {
+      "type": "object",
+      "properties": {
+        "categoryId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "category": {
+          "type": "string"
+        },
+        "reviewId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "userId": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "Comment": {
+      "type": "object",
+      "properties": {
+        "userId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "reviewId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "comment": {
+          "type": "string"
+        },
+        "commentId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "username": {
+          "type": "string"
+        }
+      }
+    },
+    "DateOnly": {
+      "type": "object",
+      "properties": {
+        "year": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "month": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "day": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "dayOfWeek": {
+          "$ref": "#/definitions/DayOfWeek"
+        },
+        "dayOfYear": {
+          "format": "int32",
+          "type": "integer",
+          "readOnly": true
+        },
+        "dayNumber": {
+          "format": "int32",
+          "type": "integer",
+          "readOnly": true
+        }
+      }
+    },
+    "DayOfWeek": {
+      "format": "int32",
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "type": "integer"
+    },
+    "Report": {
+      "type": "object",
+      "properties": {
+        "reviewId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "userId": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "Review": {
+      "type": "object",
+      "properties": {
+        "reviewId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "userId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "username": {
+          "type": "string"
+        },
+        "content": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "imgUrl": {
+          "type": "string"
+        },
+        "comments": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Comment"
+          }
+        },
+        "categories": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Category"
+          }
+        },
+        "likeCount": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "ReviewPost": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "content": {
+          "type": "string"
+        },
+        "categories": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "imgUrl": {
+          "type": "string"
+        }
+      }
+    },
+    "User": {
+      "type": "object",
+      "properties": {
+        "userId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "username": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "role": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "WeatherForecast": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "$ref": "#/definitions/DateOnly"
+        },
+        "temperatureC": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "temperatureF": {
+          "format": "int32",
+          "type": "integer",
+          "readOnly": true
+        },
+        "summary": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
